@@ -1,4 +1,4 @@
-#hola
+
 #ejercicio#2
 i=1
 suma=0
@@ -26,4 +26,9 @@ if promedio >=4 and promedio < 7:
     print("regular")
 if promedio <4:
     print("no habilitado")
+ejercicio#5
+frase=["hola","mama","pollo","yuca"]
+hola=int(input("ingrese un valor"))
+frase.insert(2,hola)
+print(frase)
  
