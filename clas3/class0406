@@ -1,1 +1,29 @@
 #hola
+#ejercicio#2
+i=1
+suma=0
+while i <= 3:
+    nota=float(input("ingrese una nota "+ str(i)+" = "))
+    suma=nota+suma
+    promedio= suma/3
+    i=i+1
+if promedio >= 7:
+    print("promocionado")
+if promedio >=4 and promedio < 7:
+    print("regular")
+if promedio <4:
+    print("reprovado")
+ #ejercicio#3
+ i=1
+suma=0
+while i <= 3:
+    nota=float(input("ingrese una nota "+ str(i)+" = "))
+    suma=nota+suma
+    promedio= suma/3
+if promedio >= 7:
+    print("el promedio",promedio)
+if promedio >=4 and promedio < 7:
+    print("regular")
+if promedio <4:
+    print("no habilitado")
+ 
